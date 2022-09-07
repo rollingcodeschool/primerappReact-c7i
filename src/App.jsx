@@ -1,5 +1,8 @@
+import Contador from "./components/Contador";
 import HolaMundo from "./components/HolaMundo";
 import TituloPrincipal from "./components/TituloPrincipal";
+import './app.css'
+
 
 function App() {
   let month = 9;
@@ -10,6 +13,8 @@ function App() {
       {/* <TituloPrincipal ></TituloPrincipal> */}
       <TituloPrincipal comision='c7i' mes={month}/>
       <HolaMundo/>
+      <hr/>
+      <Contador></Contador>
     </div>
   );
 }
