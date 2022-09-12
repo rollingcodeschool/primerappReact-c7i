@@ -1,7 +1,20 @@
+import Contador from "./components/Contador";
+import HolaMundo from "./components/HolaMundo";
+import TituloPrincipal from "./components/TituloPrincipal";
+import './app.css'
+
+
 function App() {
+  let month = 9;
+
   return (
     <div>
-      <h1>Titulo principal</h1>
+      {/* los componentes se puede escribir como etiquetas dobles o simples */}
+      {/* <TituloPrincipal ></TituloPrincipal> */}
+      <TituloPrincipal comision='c7i' mes={month}/>
+      <HolaMundo/>
+      <hr/>
+      <Contador valorInicial={0}></Contador>
     </div>
   );
 }
