@@ -14,7 +14,7 @@ function App() {
       <TituloPrincipal comision='c7i' mes={month}/>
       <HolaMundo/>
       <hr/>
-      <Contador></Contador>
+      <Contador valorInicial={0}></Contador>
     </div>
   );
 }
